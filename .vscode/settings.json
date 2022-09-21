@@ -1,6 +1,15 @@
 {
     "files.associations": {
         "string": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "stacktrace": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp"
     }
 }
