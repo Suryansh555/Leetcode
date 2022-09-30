@@ -1,4 +1,5 @@
-
+#include<bits/stdc++.h>
+using namespace std ;
 
 #define pi pair<int,int>
 class mycomparator{
