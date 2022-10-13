@@ -2,43 +2,26 @@
 using namespace std ;
 
 
-class Solution {
+class Solution { // Use long long to avoid runtime error and Integer Overflow in C++.
 public:
-
-    bool backtrack(string &S, int start, vector<int> &nums){        
-        int n = S.size();
-	// If we reached end of string & we have more than 2 elements
-	// in our sequence then return true
-        if(start >= n && nums.size()>=3){
-            return true;
-        }
-	// Since '0' in beginning is not allowed therefore if the current char is '0'
-	// then we can use it alone only and cannot extend it by adding more chars at the back.
-	// Otherwise we make take upto 10 chars (length of INT_MAX)
-        int maxSplitSize = (S[start]=='0') ? 1 : 10;
-	// Try getting a solution by forming a number with 'i' chars begginning with 'start'
-        for(int i=1; i<=maxSplitSize && start+i<=S.size(); i++){
-            long long num = stoll(S.substr(start, i));
-            if(num > INT_MAX)
-                return false;
-            int sz = nums.size();
-	// If fibonacci property is not satisfied then we cannot get a solution
-            if(sz >= 2 && nums[sz-1]+nums[sz-2] < num)
-                return false;
-            if(sz<=1 || nums[sz-1]+nums[sz-2]==num){
-                nums.push_back(num);
-                if(backtrack(S, start+i, nums))
-                    return true;
-                nums.pop_back();                
+    vector<int>ans; //Resultant Vector
+    bool backtrack(string s,int start){   //helper function (perfom backtracking)
+        if(start==s.size() and ans.size()>2)return true;  //if we trverse whole string and atleast there are are 3 fibonacci number then return true.
+        long long n=0; //declaring new number
+        for(int i=start;i<s.size();i++){ // traverse whole string start from start_index
+            n=n*10+s[i]-'0';      // forming new number    
+            if(n<0 or n>INT_MAX)return false;  //number goes out of bound
+            if(ans.size()<2|| (long long)ans.back()+(long long)ans[ans.size()-2]==n){// checking for fibonacci condition.
+                ans.push_back(n);
+                if(backtrack(s,i+1))return true; // if number satisfied the conditions then check for further string.
+                ans.pop_back();// if number not satisfied the conditions then backtrack to previous state.
             }
+            if(s[i]=='0' and i==start)return false;  // checking for trailing zeros/
         }
         return false;
     }
-    
-    vector<int> splitIntoFibonacci(string S) {
-        vector<int> nums;
-	// Backtrack from 0th char
-        backtrack(S, 0, nums);
-        return nums;
-    }
+    vector<int> splitIntoFibonacci(string s) {
+        backtrack(s,0);
+        return ans;
+    }    
 };
