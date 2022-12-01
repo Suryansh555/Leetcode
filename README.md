@@ -268,9 +268,14 @@
 |--------------------------------------------------------------------------------------------------|------------|------|
 | https://leetcode.com/problems/kth-missing-positive-number/?envType=study-plan&id=binary-search-i | 30-11-2022 | EASY |
 |                                                                                                  |            |      |
-| CATEGORY                                                                                         | COUNT      |      |
-| EASY                                                                                             | 133        |      |
-| MEDIUM                                                                                           | 128        |      |
-| HARD                                                                                             | 5          |      |
-|                                                                                                  |            |      |
-| TOTAL =                                                                                          | 266        |      |
+https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/?envType=study-plan&id=binary-search-i	01-12-2022	EASY
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/?envType=study-plan&id=algorithm-ii	01-12-2022	MEDIUM
+https://leetcode.com/problems/subtree-of-another-tree/?envType=study-plan&id=algorithm-ii	01-12-2022	EASY
+		
+		
+CATEGORY	COUNT	
+EASY	135	
+MEDIUM	129	
+HARD	5	
+		
+TOTAL = 	269	
