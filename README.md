@@ -264,18 +264,19 @@
 | [https://leetcode.com/problems/interval-list-intersections/?envType=study-plan&id=algorithm-ii](https://leetcode.com/problems/interval-list-intersections/?envType=study-plan&id=algorithm-ii)                                                                                         | 28-11-2022 | MEDIUM   |
 | [https://leetcode.com/problems/container-with-most-water/?envType=study-plan&id=algorithm-ii](https://leetcode.com/problems/container-with-most-water/?envType=study-plan&id=algorithm-ii)                                                                                             | 28-11-2022 | MEDIUM   |
 | [https://leetcode.com/problems/minimum-size-subarray-sum/?envType=study-plan&id=algorithm-ii](https://leetcode.com/problems/minimum-size-subarray-sum/?envType=study-plan&id=algorithm-ii)                                                                                             | 29-11-2022 | MEDIUM   |
-| https://leetcode.com/problems/arranging-coins/?envType=study-plan&id=binary-search-i             | 30-11-2022 | EASY |
-|--------------------------------------------------------------------------------------------------|------------|------|
-| https://leetcode.com/problems/kth-missing-positive-number/?envType=study-plan&id=binary-search-i | 30-11-2022 | EASY |
-|                                                                                                  |            |      |
-https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/?envType=study-plan&id=binary-search-i	01-12-2022	EASY
-https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/?envType=study-plan&id=algorithm-ii	01-12-2022	MEDIUM
-https://leetcode.com/problems/subtree-of-another-tree/?envType=study-plan&id=algorithm-ii	01-12-2022	EASY
-		
-		
-CATEGORY	COUNT	
-EASY	135	
-MEDIUM	129	
-HARD	5	
-		
-TOTAL = 	269	
+| [https://leetcode.com/problems/arranging-coins/?envType=study-plan&id=binary-search-i](https://leetcode.com/problems/arranging-coins/?envType=study-plan&id=binary-search-i)                                                                                                           | 30-11-2022 | EASY     |
+| [https://leetcode.com/problems/kth-missing-positive-number/?envType=study-plan&id=binary-search-i](https://leetcode.com/problems/kth-missing-positive-number/?envType=study-plan&id=binary-search-i)                                                                                   | 30-11-2022 | EASY     |
+| [https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/?envType=study-plan&id=binary-search-i](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/?envType=study-plan&id=binary-search-i)                               | 01-12-2022 | EASY     |
+| [https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/?envType=study-plan&id=algorithm-ii](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/?envType=study-plan&id=algorithm-ii)                                                   | 01-12-2022 | MEDIUM   |
+| https://leetcode.com/problems/subtree-of-another-tree/?envType=study-plan&id=algorithm-ii                                                                                                                                                                                              | 01-12-2022 | EASY     |
+| [https://leetcode.com/problems/shortest-path-in-binary-matrix/?envType=study-plan&id=algorithm-ii](https://leetcode.com/problems/shortest-path-in-binary-matrix/?envType=study-plan&id=algorithm-ii)                                                                                   | 02-12-2022 | MEDIUM   |
+| [https://leetcode.com/problems/surrounded-regions/?envType=study-plan&id=algorithm-ii](https://leetcode.com/problems/surrounded-regions/?envType=study-plan&id=algorithm-ii)                                                                                                           | 02-12-2022 | MEDIUM   |
+| [https://leetcode.com/problems/all-paths-from-source-to-target/?envType=study-plan&id=algorithm-ii](https://leetcode.com/problems/all-paths-from-source-to-target/?envType=study-plan&id=algorithm-ii)                                                                                 | 02-12-2022 | MEDIUM   |
+| [https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/?envType=study-plan&id=binary-search-i](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/?envType=study-plan&id=binary-search-i)                                                       | 02-12-2022 | EASY     |
+|                                                                                                                                                                                                                                                                                        |            |          |
+| CATEGORY                                                                                                                                                                                                                                                                               | COUNT      |          |
+| EASY                                                                                                                                                                                                                                                                                   | 136        |          |
+| MEDIUM                                                                                                                                                                                                                                                                                 | 132        |          |
+| HARD                                                                                                                                                                                                                                                                                   | 5          |          |
+|                                                                                                                                                                                                                                                                                        |            |          |
+| TOTAL =                                                                                                                                                                                                                                                                                | 273        |          |
